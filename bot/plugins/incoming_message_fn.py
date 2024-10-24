@@ -86,7 +86,7 @@ async def incoming_start_message_f(bot, update):
             return
         except Exception:
             await message.reply_text(
-                text="Something went Wrong. Contact my [Developer](https://t.me/BOSS_MEENA_JI).",
+                text="Something went Wrong. Contact my [Developer](https://t.me/Soutick_09).",
                 parse_mode="markdown",
                 disable_web_page_preview=True
             )
