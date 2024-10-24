@@ -43,7 +43,7 @@ async def help_message_f(client, message):
             user = await client.get_chat_member(UPDATES_CHANNEL, message.chat.id)
             if user.status == "kicked":
                await message.reply_text(
-                   text="Sorry, You are Banned to use me. Contact my [Owner](https://t.me/Soutick_09).",
+                   text="Sorry, You are Banned to use me. Contact my [Owner](https://t.me/BOSS_MEENA_JI).",
                    parse_mode="markdown",
                    disable_web_page_preview=True
                )
@@ -63,7 +63,7 @@ async def help_message_f(client, message):
             return
         except Exception:
             await message.reply_text(
-                text="Something went Wrong. Contact my [Moderator](https://t.me/Soutick_09).",
+                text="Something went Wrong. Contact my [Developer](https://t.me/Soutick_09).",
                 parse_mode="markdown",
                 disable_web_page_preview=True
             )
@@ -74,7 +74,8 @@ async def help_message_f(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Owner', url='https://t.me/Soutick_09')
+                    InlineKeyboardButton('Owner', url='https://t.me/BOSS_MEENA_JI'),
+                    InlineKeyboardButton('Developer', url='https://t.me/Soutick_09')
                 ]
                 
                 
